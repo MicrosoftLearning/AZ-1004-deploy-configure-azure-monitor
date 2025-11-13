@@ -70,12 +70,3 @@ lab:
     | Destination details	| Send to Log Analytics workspace  |
     | Subscription	| Your subscription  |
     | Log Analytics workspace 	| LogAnalytics1   |
-
-### Enable file and configuration change tracking for web apps
-
-1. In the Azure Portal Search Bar, enter **rg-alpha** and select **rg-alpha** from the list of results.
-1. From the list of items in the resource group, choose the AzureLinuxAppWXYZ-webapp.
-1. Choose **Diagnose and Solve Problems**.
-1. In the search dialog box, type **Application Changes**.
-1. On the **Change Analysis** page, choose **Configure**.
-1. On the **Enable file and configuration change tracking** page, change the Status slider to **On** and then choose **Save**.
