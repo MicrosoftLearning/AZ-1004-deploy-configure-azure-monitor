@@ -27,6 +27,20 @@ lab:
 
 4. Review the information and choose **Create**.
 
+### Install and configure the Log Analytics agent on Linux-VM2
+
+1. In the Azure Portal Search Bar, enter **Virtual Machines** and select **Virtual Machines** from the list of results.
+1. On the **Virtual Machines** page, select **Linux-VM2**.
+1. On the **Linux-VM2** page, choose **Extensions + Applications** under **Settings**.
+1. Choose **Add** and select the **Log Analytics agent for Linux** (also known as OmsAgentForLinux). Choose **Next**.
+1. For the Workspace ID and Workspace Key, navigate to **LogAnalytics1 > Settings > Agents** in a separate browser tab or window.
+1. Copy the **Workspace ID** and **Primary Key** from the LogAnalytics1 workspace.
+1. Return to the Linux-VM2 extension installation page and paste the Workspace ID and Workspace Key. Choose **Review and Create**, and then choose **Create**.
+1. After the installation completes, on the **Linux-VM2 Extensions + Applications** page, select the **AzureNetworkWatcherExtension**.
+1. On the extension details page, ensure that **Enable automatic upgrade** is set to **Yes**. If not, enable it and choose **Save**.
+1. Return to the **Extensions + Applications** page and select the **OmsAgentForLinux** extension.
+1. On the extension details page, ensure that **Enable automatic upgrade** is set to **Yes**. If not, enable it and choose **Save**.
+
 ### Configure Log Analytics data retention and archive policies
 
 1. In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
