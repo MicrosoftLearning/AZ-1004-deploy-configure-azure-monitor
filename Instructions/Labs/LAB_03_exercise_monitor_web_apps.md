@@ -18,7 +18,7 @@ lab:
 
 1. In the Azure Portal Search Bar, enter **rg-alpha** and select **rg-alpha** from the list of results.
 1. From the list of items in the resource group, choose **App Services for the Web App with an SQL Database**.
-1. Under **Settings** choose **Application Insights**.
+1. Under **Monitoring** choose **Application Insights**.
 1. On the **Application Insights** page, choose **Turn On Application Insights**.
 1. On the **Application Insights** page, ensure that **Create a new resource** is selected and that the Log Analytics Workspace is set to **LogAnalytics1** and choose **Apply**.
 1. On the **Apply monitoring settings** dialog, choose **Yes**.
@@ -27,7 +27,7 @@ lab:
 
 1. In the Azure Portal Search Bar, enter **rg-alpha** and select **rg-alpha** from the list of results.
 1. From the list of items in the resource group, choose **App Services for the Web App with an SQL Database**.
-1. Under **Settings** choose **Application Insights**.
+1. Under **Monitoring** choose **Application Insights**.
 1. Under **Instrument your application**, choose **.NET Core** and then set the Snapshot Debugger setting to **Off**. Choose **Apply**.
 1. On the **Apply Monitoring Settings** dialog box, choose **Yes**.
 
