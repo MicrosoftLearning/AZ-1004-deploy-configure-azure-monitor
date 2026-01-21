@@ -3,6 +3,9 @@ lab:
     title: 'Exercise - Configure monitoring for compute services'
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
+In this exercise, you’ll configure monitoring for compute services.
+
+This exercise should take approximately **15** minutes to complete. <!-- update with estimated duration -->
 
 ## Skilling tasks
 
