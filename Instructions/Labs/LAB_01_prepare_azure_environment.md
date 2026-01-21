@@ -3,6 +3,9 @@ lab:
     title: 'Prepare your Azure environment'
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
+In this exercise, you’ll prepare the environment for the guided project.
+
+This exercise should take approximately **30** minutes to complete. <!-- update with estimated duration -->
 
 ## Prepare your bring-your-own-subscription (BYOS)
 
