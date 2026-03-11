@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Exercise - Configure alerts'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Exercise - Configure alerts
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: In this exercise, you’ll configure alerts and actions.
+  duration: 10 minutes
+  level: 200
+  islab: true
 ---
+
 In this exercise, you’ll configure alerts and actions.
 
 This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->
