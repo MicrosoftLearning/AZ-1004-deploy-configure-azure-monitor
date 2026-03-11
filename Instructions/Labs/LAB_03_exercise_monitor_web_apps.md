@@ -1,8 +1,16 @@
 ---
 lab:
-    title: 'Exercise - Monitor web apps'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Exercise - Monitor web apps
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: In this exercise, you’ll prepare configure Azure Monitor for web apps.
+  duration: 20 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Azure
+  - Azure Monitor
 ---
+
 In this exercise, you’ll prepare configure Azure Monitor for web apps.
 
 This exercise should take approximately **20** minutes to complete. <!-- update with estimated duration -->
