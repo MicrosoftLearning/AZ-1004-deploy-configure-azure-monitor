@@ -1,8 +1,15 @@
 ---
 lab:
-    title: 'Prepare your Azure environment'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Prepare your Azure environment
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: In this exercise, you create an Entra ID security group.
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure
 ---
+
 In this exercise, you’ll prepare the environment for the guided project.
 
 This exercise should take approximately **30** minutes to complete. <!-- update with estimated duration -->
