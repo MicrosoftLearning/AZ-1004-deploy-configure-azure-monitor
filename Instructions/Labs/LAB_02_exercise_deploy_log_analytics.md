@@ -1,8 +1,20 @@
 ---
 lab:
-    title: 'Exercise - Deploy Log Analytics'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Exercise - Deploy Log Analytics
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: You deploy a Log Analytics workspace and configure the Azure Monitor Agent on a Linux virtual machine using a data collection rule. You verify data ingestion with KQL queries and configure workspace access using role-based access control.
+  duration: 10 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure Monitor
+    - Log Analytics
+    - Data Collection Rules
+    - Azure Monitor Agent
+    - KQL
+    - Role-Based Access Control
 ---
+
 In this exercise, you’ll configure log analytics for Azure Monitor.
 
 This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->

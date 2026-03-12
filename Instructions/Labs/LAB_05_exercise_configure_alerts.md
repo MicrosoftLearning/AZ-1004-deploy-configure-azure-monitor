@@ -1,8 +1,18 @@
 ---
 lab:
-    title: 'Exercise - Configure alerts'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Exercise - Configure alerts
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: You configure alerts and notifications in Azure Monitor. You create an email action group and define a CPU utilization alert rule for a virtual machine.
+  duration: 10 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure Monitor
+    - Alerts
+    - Action Groups
+    - Virtual Machines
 ---
+
 In this exercise, you’ll configure alerts and actions.
 
 This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->

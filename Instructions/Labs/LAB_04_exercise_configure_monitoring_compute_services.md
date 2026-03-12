@@ -1,8 +1,20 @@
 ---
 lab:
-    title: 'Exercise - Configure monitoring for compute services'
-    module: 'Guided Project - Deploy and configure Azure Monitor'
+  title: Exercise - Configure monitoring for compute services
+  module: Guided Project - Deploy and configure Azure Monitor
+  description: You configure Azure Monitor for compute services by creating a data collection endpoint and data collection rule for a Windows virtual machine. You add IIS log collection to an existing rule and configure Network Connection Monitor for a Linux virtual machine.
+  duration: 15 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Azure Monitor
+    - Data Collection Rules
+    - Data Collection Endpoints
+    - IIS Logs
+    - Network Connection Monitor
+    - Network Watcher
 ---
+
 In this exercise, you’ll configure monitoring for compute services.
 
 This exercise should take approximately **15** minutes to complete. <!-- update with estimated duration -->
