@@ -2,12 +2,17 @@
 lab:
   title: Prepare your Azure environment
   module: Guided Project - Deploy and configure Azure Monitor
-  description: In this exercise, you create an Entra ID security group.
+  description: You prepare the Azure environment for a monitoring-focused guided project. You provision a resource group, security group, Windows and Linux virtual machines, and a web app with SQL database.
   duration: 30 minutes
   level: 300
   islab: true
   primarytopics:
-    - Azure
+    - Resource Groups
+    - Microsoft Entra ID
+    - Virtual Machines
+    - App Service
+    - Azure SQL Database
+    - ARM Templates
 ---
 
 In this exercise, you’ll prepare the environment for the guided project.

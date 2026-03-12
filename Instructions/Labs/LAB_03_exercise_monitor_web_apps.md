@@ -2,13 +2,16 @@
 lab:
   title: Exercise - Monitor web apps
   module: Guided Project - Deploy and configure Azure Monitor
-  description: In this exercise, you’ll prepare configure Azure Monitor for web apps.
+  description: You configure Azure Monitor for web applications hosted in App Service. You enable Application Insights, route HTTP and SQL diagnostic logs to a Log Analytics workspace, and enable file and configuration change tracking.
   duration: 20 minutes
   level: 300
   islab: true
   primarytopics:
-    - Azure
     - Azure Monitor
+    - Application Insights
+    - App Service
+    - Diagnostic Settings
+    - SQL Insights
 ---
 
 In this exercise, you’ll prepare configure Azure Monitor for web apps.
