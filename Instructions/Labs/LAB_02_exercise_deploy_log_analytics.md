@@ -52,20 +52,22 @@ This exercise should take approximately **10** minutes to complete. <!-- update 
     - **Subscription:** Your subscription
     - **Resource Group:** rg-alpha
     - **Region:** East US (choose the region matching your VM/workspace)
-    - **Platform type:** Select Linux
+    - **Type of telemetry:** Select **Agent-based - Linux**
     - Select **Next: Resources >**
 4. Under **Resources**, select **+ Add resources**.
     - Search for and select **Linux-VM**.
     - Select **Apply**.
     - Select **Next: Collect and deliver >**
 5. In the **Collect and deliver** tab:
-    - Select **+ Add data source**.
+    - Select **Add new data source** (or **Add new dataflow**, if displayed).
     - For **Data source type**, choose **Performance Counters**.
     - Select **Next: Destination >**.
     - Select **+ Add destination**.
-    - Under **Destination type** choose **Azure Monitor Logs**.
+    - Under **Destination type**, choose **Log Analytics Workspaces**.
+    - Select your subscription.
     - Under **Destination Details** choose **LogAnalytics1 (rg-alpha)**.
-    - Select **Add data source**.
+    - Select **Apply** to add the destination.
+    - Leave the optional transformation unchanged, and select **Save** to save the data source.
     - Select **Next: Review + create**
 6. On the **Review + create** page, review your selections, and select **Create** to deploy the DCR.
 
@@ -75,7 +77,7 @@ This exercise should take approximately **10** minutes to complete. <!-- update 
     1. In the Azure Portal, use the search bar to search for **Log Analytics workspaces** and select it from the results.
     2. In the list of workspaces, select **LogAnalytics1**.
     3. In the left-hand menu of the LogAnalytics1 workspace, select **Logs**.
-    4. Use the mode drop-down to change from **Simple mode** to **KQL mode**.
+    4. If the Observability Agent chat opens, turn off the **Agent** toggle in the upper-right corner to display the query editor. Use the mode drop-down to select **KQL mode**.
     5. In the query window, enter the following query:
         ```
         Heartbeat
