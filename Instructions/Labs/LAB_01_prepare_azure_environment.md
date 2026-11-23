@@ -65,10 +65,12 @@ In this exercise, you deploy and configure a Windows Server virtual machine.
     | Security type	| Standard   |
     | Image	| Windows Server 2022 Datacenter: Azure Edition – x64 Gen2  |
     | VM architecture	| x64  |
-    | Size	| Standard_D4s_v3 – 4 vcpus, 16 GiB memory  |
+    | Size	| Standard_D4s_v5 – 4 vcpus, 16 GiB memory  |
     | Administrator account	| prime  |
     | Password	| [Select a unique secure password] P@ssw0rdP@ssw0rd   |
     | Inbound ports	| RDP 3389   |
+
+    If **Standard_D4s_v5** isn't available, select **Standard_D4s_v6**. If **Standard_D4s_v6** isn't available, select **Standard_D4s_v7**.
 
 4. Review the settings and select **Create**.
 1. Wait for the deployment to complete. Once deployment completes choose **Go to resource**.
@@ -124,11 +126,13 @@ In this exercise you deploy and configure a Linux virtual machine.
     | Security type	| Standard   |
     | Image	| Ubuntu Server 20.04 LTs – x64 Gen2  |
     | VM architecture	| x64  |
-    | Size	| Standard_D2s_v3 – 2 vcpus, 8 GiB memory  |
+    | Size	| Standard_D2s_v5 – 2 vcpus, 8 GiB memory  |
     | Authentication type	| Password  |
     | Username	| Prime   |
     | Password	| [Select a unique secure password] P@ssw0rdP@ssw0rd   |
     | Public inbound ports	| None   |
+
+    If **Standard_D2s_v5** isn't available, select **Standard_D2s_v6**. If **Standard_D2s_v6** isn't available, select **Standard_D2s_v7**.
 
 4. Review the information and choose **Create**.
 1. After the VM deploys, open the **VM properties** page and choose **Extensions + Applications** under **Settings**.
